@@ -1,14 +1,39 @@
 body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 50px;
+  background: #081b29;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
 }
 
-h1 {
-    color: #2c3e50;
+header h1 {
+  color: #0ef;
+  font-size: 30px;
 }
 
-p {
-    color: #34495e;
+.brand {
+  color: #0ef;
+}
+
+.name {
+  color: #0ef;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #0ef;
+  margin: 20px auto;
+  display: block;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: white;
+  background: #0ef;
+  text-decoration: none;
+  border-radius: 10px;
 }
